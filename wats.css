@@ -1,0 +1,12 @@
+.accordion-button:hover{
+    color: blue;
+}
+
+#accordionExample {
+    text-align: center;
+}
+
+
+.accordion-button collapsed{
+    text-align: center;
+}

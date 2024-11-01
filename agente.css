@@ -1,0 +1,68 @@
+body{
+    margin:0 ;
+    padding: 0;
+   
+}  
+
+
+
+
+h2{
+    margin: 0 auto;
+    color: white;
+
+}
+
+#container {
+    background-color: white;
+}
+
+th:hover{
+    animation-name: brilho;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 24px;
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 12px red, 0 0 50 px green, 0 0 100px purple;
+}
+
+
+table td {
+    text-align: center;
+    color: wheat;
+}
+
+#mural {
+    
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #249c94;
+    height: 1024px;
+}
+
+/***    VARIAVEIS   **/
+
+
+:root {
+    --colorBlue : #7ac0fa;
+    --colorRed: rgb(255, 26, 26);
+}
+
+@keyframes brilho {
+    0%{
+        color: #fff;
+        text-shadow: 0 0 20px, var(--colorRed), 0 0 50px, var(--colorBlue);
+    } 
+
+    10%, 90% {
+        color: #ffffff;
+        text-shadow: none;
+    }
+}
+
+
+/* FIM VARIAVEL*/
